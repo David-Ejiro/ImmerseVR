@@ -10,7 +10,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
-
+/* Styles for root and elements */
 
 body {
   margin: 0;
@@ -18,21 +18,21 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  color: aliceblue;
+  background-color: #1a1a1a;
 }
 
 h1 {
   font-size: 3.2em;
-  line-height: 1.1;
+  line-height: 1.1em;
 }
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+p{
+  stroke-width: 0.006rem;
+}
+#guest{
+  text-decoration: underline;
   cursor: pointer;
-  transition: border-color 0.25s;
+}
+#guest:hover{
+  color: aqua;
 }
