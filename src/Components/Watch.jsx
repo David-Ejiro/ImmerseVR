@@ -60,7 +60,6 @@ const Watch = () => {
       </div>
 
       <div className="immersePage">
-        <h2>Immerse yourself...</h2>
         <Movielist />
         <Movielist />
       </div>
