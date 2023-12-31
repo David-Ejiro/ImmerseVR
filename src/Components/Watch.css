@@ -16,6 +16,7 @@ ol,
 ul,
 #root {
   padding: 0;
+  margin: 0;
 }
 
 html {
@@ -34,42 +35,59 @@ li {
 /* end og meyers reset */
 
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(141, 116, 116);
 }
 .moviePage {
-    min-width: 95vw;
-    display: grid;
-    grid-template-columns: 80px auto;
-    grid-template-rows: auto;
-    margin-left: 80px;
+  display: grid;
+  grid-template-columns: 80px auto;
+  grid-template-rows: 80px auto;
+  margin: 0.31em;
+  max-height: 100vh;
 }
-.navbarContainer{
-    width: 80px;
-    height: 110vh;
-    background-color: azure;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 2rem;
+.navbarContainer {
+  background-color: antiquewhite;
+  grid-row: 1/3;
+  grid-column: 1/2;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  place-items: center;
+}
+.navbarContainer ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+img {
+  width: 100%;
+  flex: auto;
+  height: auto;
+}
+.searchBar {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  position: sticky;
+  top: 0px;
 }
 
-.searchBar{
-    grid-row: 1/2;
-    grid-column: 1/3;
-    position: sticky;
-    top: 0px;
+#search {
+  height: 80px;
+  width: 100%;
+  text-align: center;
 }
 
-#search{
-    width: 100%;
-    height: 80px;
-    /* padding: 5px; */
-    text-align: center;
+.immersePage {
+  display: flex;
+  flex-flow: column nowrap;
 }
 
-.immersePage{
-    
+.movieSlideContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: auto;
+}
+.movieSlide {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: auto;
 }

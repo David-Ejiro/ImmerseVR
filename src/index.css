@@ -10,29 +10,37 @@
   -webkit-text-size-adjust: 100%;
 }
 
-/* Styles for root and elements */
-
-body {
+/* Meyer's Reset */
+body,
+h1,
+h2,
+h3,
+p,
+figure,
+blockquote,
+dl,
+dd {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  color: aliceblue;
-  background-color: #1a1a1a;
+  padding: 0;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1em;
+ol,
+ul,
+#root {
+  padding: 0;
+  margin: 0;
 }
-p{
-  stroke-width: 0.006rem;
+
+html {
+  box-sizing: border-box;
 }
-#guest{
-  text-decoration: underline;
-  cursor: pointer;
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
-#guest:hover{
-  color: aqua;
+
+li {
+  list-style: none;
 }
