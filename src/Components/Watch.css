@@ -90,4 +90,5 @@ img {
   display: flex;
   flex-flow: row nowrap;
   flex: auto;
+  min-width: 100%;
 }
