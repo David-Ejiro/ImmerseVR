@@ -1,0 +1,3 @@
+- Watch on overview video on how to set up TMDB in a project.
+- Watch someone build a different movie app with react?
+- 
