@@ -63,6 +63,13 @@ const Watch = () => {
       <h2>What would you like to watch?</h2>
         <Movielist />
         <Movielist />
+        <Movielist />
+        <Movielist />
+        <Movielist />
+        <Movielist />
+        <Movielist />
+        <Movielist />
+        <Movielist />
       </div>
     </div>
   );
