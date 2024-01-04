@@ -24,7 +24,6 @@ const Watch = () => {
           ></input>
         </form>
       </div>
-
       <div className="immersePage">
       <h2>What would you like to watch?</h2>
         <Movielist />
