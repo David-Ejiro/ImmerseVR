@@ -1,4 +1,4 @@
-Movie discovery Hom page: https://api.themoviedb.org/3/discover/movie?api_key=c52dd2eabf30a065e9530b26a4e48214
+Movie discovery Hom page: https://api.themoviedb.org/3/discover/movie?api_key=c52dd2eabf30a065e9530b26a4e48214 (or discover movie by popularity query)
 
 find movie by ID
 https://api.themoviedb.org/3/movie/695721?api_key=c52dd2eabf30a065e9530b26a4e48214

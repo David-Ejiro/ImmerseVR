@@ -1,0 +1,14 @@
+.mv-card{
+    font-size: 1.2em;;
+}
+
+
+.mv-card img{
+    height: 300px;
+    width: auto;
+
+}
+
+.hidden{
+    position: relative;
+}

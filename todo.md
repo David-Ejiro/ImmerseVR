@@ -4,3 +4,5 @@
 - Set up Icons 
 - Use intended background colors 
 - Apply fainty little gradients
+- Look up missing in props validation 
+- let summary and overview display on mouse hover
