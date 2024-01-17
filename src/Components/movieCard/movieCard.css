@@ -1,14 +1,21 @@
 .mv-card{
-    font-size: 1.2em;;
+    font-size: 1.2em;
+    background-color: aqua;
+    position: relative;
+width: 25%;
 }
-
 
 .mv-card img{
-    height: 300px;
-    width: auto;
-
+    height: auto;
+    width: 100%;
 }
 
+#descr{
+    position: absolute;
+    top: 50%;
+    overflow: hidden;
+}
 .hidden{
     position: relative;
+    /* visibility: hidden; */
 }
