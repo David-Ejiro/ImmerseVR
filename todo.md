@@ -1,8 +1,3 @@
-- Watch on overview video on how to set up TMDB in a project.
-- Watch someone build a different movie app with react?
-- Don't forget Navbar has to be static on page, while Movie sec scrolls 
-- Set up Icons 
-- Use intended background colors 
-- Apply fainty little gradients
-- Look up missing in props validation 
-- let summary and overview display on mouse hover
+- MAke search bar thicker and wider.
+- Make fonts perfectly responsive and right sized 
+- make navbar stick

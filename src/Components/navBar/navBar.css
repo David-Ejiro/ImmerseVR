@@ -1,0 +1,15 @@
+.navbarContainer ul{
+    min-height: 100vh;
+    position: relative;
+    padding-left: 20px;
+    z-index: 22;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    background-color: black;
+}
+
+img{
+    width: auto;
+    height: 3em;
+}
