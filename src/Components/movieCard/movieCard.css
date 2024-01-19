@@ -1,21 +1,35 @@
-.mv-card{
-    font-size: 1.2em;
-    background-color: aqua;
-    position: relative;
-width: 25%;
+.mv-card {
+  font-size: 1.2em;
+  background-color: aqua;
+  position: relative;
+  width: 25%;
 }
 
-.mv-card img{
-    height: auto;
-    width: 100%;
+.mv-card img {
+  height: auto;
+  width: 100%;
 }
 
-#descr{
-    position: absolute;
-    top: 50%;
+#descr {
+  position: absolute;
+  top: 50%;
+  overflow: hidden;
+}
+p{
+    font-size: 0.7em;
+    font-weight: 300;
+    /* line-height: 70%; */
+    color: greenyellow;
+    padding: 12px;
+    /* white-space: nowrap; */
     overflow: hidden;
+    text-overflow: ellipsis;
 }
-.hidden{
-    position: relative;
-    /* visibility: hidden; */
+.hidden {
+  position: relative;
+  /* visibility: hidden; */
+}
+.mv-card:hover .hidden{
+    visibility: visible;
+
 }
