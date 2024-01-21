@@ -6,6 +6,7 @@ function MovieCard({ poster_path, title, overview, vote_average }) {
 
   let imgSrc = `https://image.tmdb.org/t/p/original${poster_path}`;
   return (
+
     <div className="mv-card">
       <img src={imgSrc} alt="Movie Poster"></img>
       <div id="descr">

@@ -1,15 +1,13 @@
 .mv-card {
   font-size: 1.2em;
   background-color: rgb(0, 0, 0);
-  position: relative;
-  min-width: 25%;
-  max-width: 30%;
-
+  flex: auto;
+  width: 33%;
 }
 
 .mv-card img {
-  height: auto;
-  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 #descr {
@@ -17,21 +15,20 @@
   top: 50%;
   overflow: hidden;
 }
-p{
-    font-size: 0.7em;
-    font-weight: 300;
-    /* line-height: 70%; */
-    color: greenyellow;
-    padding: 12px;
-    /* white-space: nowrap; */
-    overflow: hidden;
-    text-overflow: ellipsis;
+p {
+  font-size: 0.7em;
+  font-weight: 300;
+  /* line-height: 70%; */
+  color: greenyellow;
+  padding: 12px;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .hidden {
   position: relative;
   /* visibility: hidden; */
 }
-.mv-card:hover .hidden{
-    visibility: visible;
-
+.mv-card:hover .hidden {
+  visibility: visible;
 }
