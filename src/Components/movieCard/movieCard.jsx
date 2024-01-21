@@ -9,11 +9,10 @@ function MovieCard({ poster_path, title, overview, vote_average }) {
     <div className="mv-card">
       <img src={imgSrc} alt="Movie Poster"></img>
       <div id="descr">
-        <h3 className="hidden">{title}</h3>
+        {/* <h3 className="hidden">{title}</h3>
         <p className="hidden">{overview}</p>
-        <p className="hidden">Rating: {vote_average}</p>
+        <p className="hidden">Rating: {vote_average}</p> */}
       </div>
-      <hr></hr>
     </div>
   );
 }

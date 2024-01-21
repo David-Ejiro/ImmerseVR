@@ -24,6 +24,8 @@ Navbar{
 
 /* searchbar form styles */
 #search, form{
+    color: aliceblue;
+    background-color: black;
     width: 100%;
     height: 100%;
     font-size: 1.3em;

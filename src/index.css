@@ -45,5 +45,6 @@ li {
   list-style: none;
 }
 body{
-  /* background-color: black; */
+  color: aliceblue;
+  background-color: black;
 }

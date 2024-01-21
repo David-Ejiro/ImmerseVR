@@ -1,8 +1,10 @@
 .mv-card {
   font-size: 1.2em;
-  background-color: aqua;
+  background-color: rgb(0, 0, 0);
   position: relative;
-  width: 25%;
+  min-width: 25%;
+  max-width: 30%;
+
 }
 
 .mv-card img {
