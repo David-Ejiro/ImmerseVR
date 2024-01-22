@@ -1,12 +1,12 @@
 .mv-card {
   font-size: 1.2em;
   background-color: rgb(0, 0, 0);
-  flex: auto;
-  width: 33%;
+  flex: 1 0 auto;
+  min-width: 20%;
 }
 
 .mv-card img {
-  max-width: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -31,4 +31,25 @@ p {
 }
 .mv-card:hover .hidden {
   visibility: visible;
+}
+@media (min-width: 700px) {
+  .mv-card {
+    max-width: 50%;
+  }
+}
+@media (min-width: 1400px) {
+  .mv-card {
+    max-width: 33%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .mv-card {
+    max-width: 25%;
+  }
+}
+@media (min-width: 1900px) {
+  .mv-card {
+    max-width: 20%;
+  }
 }
