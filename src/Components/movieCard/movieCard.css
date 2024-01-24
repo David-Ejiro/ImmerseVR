@@ -36,20 +36,6 @@ p {
   .mv-card {
     max-width: 50%;
   }
-}
-@media (min-width: 1400px) {
-  .mv-card {
-    max-width: 33%;
-  }
-}
 
-@media (min-width: 1600px) {
-  .mv-card {
-    max-width: 25%;
-  }
-}
-@media (min-width: 1900px) {
-  .mv-card {
-    max-width: 20%;
-  }
+  
 }
