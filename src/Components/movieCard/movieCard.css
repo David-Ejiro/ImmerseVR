@@ -32,10 +32,24 @@ p {
 .mv-card:hover .hidden {
   visibility: visible;
 }
-@media (min-width: 700px) {
+
+@media (max-width: 699px) {
   .mv-card {
     max-width: 50%;
   }
-
-  
+}
+@media (min-width: 700px) {
+  .mv-card {
+    max-width: 33%;
+  }
+}
+@media (min-width: 960px) {
+  .mv-card {
+    max-width: 25%;
+  }
+}
+  @media (min-width: 1200px) {
+    .mv-card {
+      max-width: 20%;
+    }
 }
