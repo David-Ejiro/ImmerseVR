@@ -1,6 +1,6 @@
 .navbarContainer ul{
     min-height: 100vh;
-    width: 75px;
+    padding: 10px;
     max-width: 75px;
     position: fixed;
     z-index: 22;
@@ -8,10 +8,16 @@
     flex-flow: column nowrap;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
+    background-color: rgb(229, 52, 52);
 }
 
 .navbarContainer img{
     width: auto;
     height: 38px;
+}
+
+@media (max-width: 767px){
+    .navbarContainer ul{
+
+    }
 }
